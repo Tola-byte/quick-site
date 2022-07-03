@@ -15,7 +15,7 @@ body {
   nav {
     display: flex;
     justify-content: space-between;
-  font-family: 'Open Sauce', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #AAAAAA;
   margin-top: 1rem;
 }
@@ -51,7 +51,7 @@ a {
   opacity: .75;
 }
 main {
-    font-family: 'Open Sauce', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #AAAAAA;
     margin-top: 6rem;
     margin-bottom: 5rem;

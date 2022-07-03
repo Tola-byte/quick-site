@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: hsl(0, 0%, 10%);
+    background-color: white;
     overflow-x: hidden;
 }
 .container {
@@ -16,7 +16,7 @@ body {
       display: flex;
       justify-content: space-between;
     font-family: 'Open Sauce', sans-serif;
-    color: #AAAAAA;
+    color: black;
     margin-top: 1rem;
   }
   .mobile-nav-toggle {
@@ -34,7 +34,7 @@ body {
       display: none;
   }
   .logo-wrapper a {
-      color: #AAAAAA;
+      color: black;
   }
   .nav-aside .navigation {
     list-style: none;
@@ -43,7 +43,7 @@ body {
     font-weight: 700;
   }
   .navigation li a {
-    color: #AAAAAA;
+    color: black;
     margin-left: 2.5rem;
     text-transform: uppercase;
   }
@@ -55,12 +55,12 @@ body {
       font-family: 'Open Sauce', sans-serif;
   }
   main .project-head {
-    color: #AAAAAA;
+    color: black;
     text-decoration: #AAAAAA underline;
   }
   .heading {
       font-size: 1.2rem;
-      color: #AAAAAA;
+      color: black
   }
   .project-card-wrapper {
     display: flex;
@@ -88,7 +88,7 @@ body {
     padding-top: 0.7rem;
     margin: 0.6rem 0;
     line-height: 1.3;
-    color: #AAAAAA;
+    color: white;
   }
   
   .project-text {
@@ -105,7 +105,7 @@ body {
   }
   .project-links-wrapper a {
     text-decoration: none;
-    color: #AAAAAA;
+    color: black;
     border-radius: 5px;
   }
   .project-links-wrapper a:last-child {
@@ -161,10 +161,10 @@ body {
          transform: translateX(0%);
        }
        .navigation li {
-         border-bottom: 1px solid #AAAAAA;
+         border-bottom: 1px solid black;
        }
        .navigation li a {
-         color: #AAAAAA;
+         color: black;
        }
        main .project-head {
            font-size: 1.3rem;

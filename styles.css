@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: hsl(0, 0%, 10%);
+    background:  white;
     overflow-x: hidden;
 }
 .container {
@@ -18,8 +18,9 @@ body {
   nav {
       display: flex;
       justify-content: space-between;
-    font-family: 'Open Sauce', sans-serif;
-    color: #AAAAAA;
+    font-family: 'Montserrat', sans-serif;
+    
+    color: black;
     margin-top: 1rem;
   }
   .mobile-nav-toggle {
@@ -37,7 +38,7 @@ body {
       display: none;
   }
   .logo-wrapper a {
-      color: #AAAAAA;
+      color: black
   }
   .nav-aside .navigation {
     list-style: none;
@@ -46,7 +47,7 @@ body {
     font-weight: 700;
   }
   .navigation li a {
-    color: #AAAAAA;
+    color: black;
     margin-left: 2.5rem;
     text-transform: uppercase;
   }
@@ -58,7 +59,7 @@ body {
   }
   .hero-section hr {
     border: none;
-    background-color: #AAAAAA;
+    background-color: black;
     height: 1.5px;
   }
   .hero-section .top-divider {
@@ -73,7 +74,7 @@ body {
 .hero-section .first-paragraph {
     margin: 6rem auto 1rem auto;
     text-align: center;
-    color: #AAAAAA;
+    color: black;
 }
 .wave {
     animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
@@ -95,13 +96,13 @@ body {
   }
 .hero-section p {
     font-family: 'Open Sauce', sans-serif;
-    color: #AAAAAA;
+    color: black;
     text-align: center;
     font-size: 2rem;
 }
 .hero-section .track {
     font-family: 'Bebas Neue',  sans-serif;
-    color: #AAAAAA;
+    color: black;
     text-align: center;
     font-size: 4rem;
 }
@@ -113,17 +114,18 @@ body {
 }
  .call-to-action form button {
      background-color: transparent;
-     color: #AAAAAA;
+     color: black;
+     font-weight: 800;
      border-color: transparent;
      border: 2px solid #AAAAAA;
      padding: .5rem;
      border-radius: 5px;
      text-transform: uppercase;
-     font-family: 'Open Sauce', sans-serif;
+     font-family: 'Montserrat', sans-serif;
  }
  .call-to-action a {
     background-color: transparent;
-    color: #AAAAAA;
+    color: black;
     border-color: transparent;
     border: 2px solid #AAAAAA;
     padding: .45rem;
@@ -131,7 +133,7 @@ body {
     text-transform: uppercase;
     font-size: 15px;
     margin-left: .3rem;
-    font-family: 'Open Sauce', sans-serif;
+    font-family: 'Montserrat', sans-serif;
  }
  .call-to-action a svg {
      transform: translateY(.2rem);
