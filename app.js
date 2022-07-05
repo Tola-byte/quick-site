@@ -2,7 +2,7 @@
 // gsap.to(".bottom-divider", {duration: 8, delay: 0.65, x: -280, ease: "elastic"});
 // gsap.from(".logo", {duration: 8, delay: 0.5, y: -30, ease: "elastic"});
 gsap.from(".socials", {duration: 8, y: 80, ease: "bounce"});
-gsap.from(".image", {duration: 10, scale: 0.4, ease: "bounce"});
+gsap.from(".image", {duration: 7, scale: 0.4, ease: "bounce"});
 gsap.from(".project-card", {duration: 6, scale: 0.1, ease: "bounce"});
 
 const navbar = document.querySelector('.navigation');

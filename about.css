@@ -3,6 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+h3{
+    text-align: center;
+    color: #AAAAAA ;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.grid{
+    display: grid;
+    grid-gap: 5px;
+    align-items: center;
+    justify-content: center;
+    color: #AAAAAA;
+    grid-template-columns: repeat(2 , 1fr);
+
+}
+img{
+ width: 550px;
+ height: 450px;
+ 
+}
+
 body {
     background-color: hsl(0, 0%, 10%);
     overflow-x: hidden;
@@ -155,7 +176,7 @@ opacity: .75;
       }
       .hero-section .image-section {
           width: 100%;
-          order: 1;
+         order: 1;
           margin-right: 3rem;
       }
       .image-section .image {
@@ -164,4 +185,18 @@ opacity: .75;
       .socials {
           margin-bottom: 3rem;
       }
+      .grid{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        color: #AAAAAA;
+        grid-template-rows: 100px 200px 200px 100px;
+    
+    }
+    img{
+     width: auto;
+     height: 100px
+     
+    }
+
  }
