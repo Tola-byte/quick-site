@@ -1,8 +1,8 @@
-# Portfolio website
+# My Portfolio website
 
-# Website built with html, css and javascript
-# Animations on the website done with GSAP which is a lightweight javascript library for animations
+# Built with HTML5, CSS3 and JAVASCRIPT AND GSAP
+# Animations on the website were done with GSAP which is a lightweight javascript library for animations and stands for GreenSock Animation Platform
 
-
-# Live Link https://blessmeportfolio.netlify.app/
+#   Below is a link to the project
+# Link :  https://tola-portfolio.netlify.app/
 
